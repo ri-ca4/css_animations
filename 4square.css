@@ -22,7 +22,6 @@
     font-size: 2vw;
     text-align:center;
     line-height: 4vw;
-
 }
 
 .text::before {
@@ -96,7 +95,7 @@
     100% {left:.5vw; top:.5vw;}
 }
 
-.count::before {
+.counter::before {
     content: "";
     animation: infinite;
     animation-timing-function: step-end;
