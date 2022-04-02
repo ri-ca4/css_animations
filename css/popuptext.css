@@ -1,0 +1,60 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.grid-item {
+    height: 15vh;
+    width: 15vh;
+    font-size: 3vh;
+    border: 1px solid black;
+}
+
+.reveal {
+    opacity: 0;
+}
+
+.target:hover {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh;}
+ 
+.target:hover ~ .reveal {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh; 
+    opacity: 1;
+}
+
+.reveal2 {
+    opacity: 0;
+}
+
+.target2:hover {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh;}
+ 
+.target2:hover ~ .reveal2 {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh; 
+    opacity: 1;
+}
+
+.reveal3 {
+    opacity: 0;
+}
+
+.target3:hover {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh;}
+ 
+.target3:hover ~ .reveal3 {
+    font-size: 6vh;
+    height: 30vh;
+    width: 30vh; 
+    opacity: 1;
+}
